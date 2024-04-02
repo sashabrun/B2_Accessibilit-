@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003c7c;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+header h1 {
+    color: #fff;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+.login {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: white;
+}
+
+main h1 {
+    text-align: center;
+    color: #333;
+}
+
+main h2 {
+    text-align: center;
+    color: #333;
+}
+
+.page {
+    margin-top: 50px;
+}
+
+.corp {
+    margin-bottom: 50px;
+}
+
+.history {
+    width: 90%;
+}
+
+.history p {
+    margin-left: 10%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(0, 129, 255);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h2 {
+    color: #333;
+}
+
+.container p {
+    color: #666;
+}
+
+.image {
+    max-width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comments {
+    color: #999;
+    font-style: italic;
+}
+
+.container2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #222222;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.footerpage {
+    background-color: #003c7c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
