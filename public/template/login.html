@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Découvrez les poneys, les histoires et les astuces pour vivre comme des poneys. Rejoignez la communauté et partagez vos commentaires et expériences.">
 
-    <title>Login</title>
+    <title>Connexion</title>
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <div class="Login">
-        <h2>Login</h2>
-        <form name="loginForm">
-            <label for="username">Username:</label>
+        <h1>Connexion</h1>
+        <form name="loginForm" action="index.html" method="post">
+            <label for="username">Pseudo:</label>
             <input type="text" id="username" name="username" required>
-            <label for="password">Password:</label>
+            <label for="password">Mot de Passe:</label>
             <input type="password" id="password" name="password" required>
-            <button type="button" onclick="window.location.href='index.html'">Login</button>
+            <button type="submit" >Connexion</button>
         </form>
     </div>
 </body>
