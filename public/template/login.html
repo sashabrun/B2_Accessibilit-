@@ -6,18 +6,18 @@
     <meta name="description" content="Découvrez les poneys, les histoires et les astuces pour vivre comme des poneys. Rejoignez la communauté et partagez vos commentaires et expériences.">
 
     <title>Connexion</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="Login">
-        <h1>Connexion</h1>
-        <form name="loginForm" action="index.html" method="post">
-            <label for="username">Pseudo:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="password">Mot de Passe:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit" >Connexion</button>
-        </form>
-    </div>
+<div class="Login">
+    <h1>Connexion</h1>
+    <form name="loginForm" action="index.html" method="post">
+        <label for="username">Pseudo:</label>
+        <input type="text" id="username" name="username" autocomplete="username" autofocus required>
+        <label for="password">Mot de Passe:</label>
+        <input type="password" id="password" name="password" autocomplete="current-password" required>
+        <button type="submit">Connexion</button>
+    </form>
+</div>
 </body>
 </html>

@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -17,7 +20,7 @@ header img {
     height: auto;
 }
 
-header h1 {
+header p {
     color: #fff;
 }
 
@@ -57,6 +60,40 @@ main h1 {
     color: #333;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(0, 129, 255);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container p {
+    color: #666;
+}
+.container2 h2 {
+    color: #333;
+    text-align: left;
+}
+.image {
+    max-width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.comments {
+    color: #999;
+    font-style: italic;
+}
+
 main h2 {
     text-align: center;
     color: #333;
@@ -76,18 +113,6 @@ main h2 {
 
 .history p {
     margin-left: 10%;
-}
-
-.container {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid rgb(0, 129, 255);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .container h2 {
@@ -142,6 +167,41 @@ td {
     border-bottom: 1px solid #ddd;
 }
 
+.comments-section {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.comments-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.comment {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.user {
+    color: #1F1F1FFF;
+    font-weight: bold;
+}
+
+.content {
+    color: #1F1F1FFF;
+    margin-top: 10px;
+}
+
+.date {
+    color: #1f1f1f;
+    font-style: italic;
+}
+
 .footerpage {
     background-color: #003c7c;
     color: #fff;
@@ -152,4 +212,41 @@ td {
 
 a {
     text-decoration: none;
+}
+
+.Login {
+    border: 2px solid #0081ff;
+    width: 300px;
+    padding: 20px;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+
+.Login h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
 }
